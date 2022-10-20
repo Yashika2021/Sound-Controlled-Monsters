@@ -4,8 +4,7 @@ function startClassification(){
 }
 
 function modelReady(){
-    classifer.classify(gotResults);
-    console.log("Your model is ready");
+    classifier.classify(gotResults);
 }
 
 function gotResults (error, results) {
